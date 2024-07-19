@@ -11,6 +11,17 @@
 		B10424112C49480900443C09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424102C49480900443C09 /* ContentView.swift */; };
 		B10424132C49480B00443C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10424122C49480B00443C09 /* Assets.xcassets */; };
 		B10424162C49480B00443C09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10424152C49480B00443C09 /* Preview Assets.xcassets */; };
+		B104241D2C4948BA00443C09 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104241C2C4948BA00443C09 /* Home.swift */; };
+		B104241F2C4948D300443C09 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104241E2C4948D300443C09 /* Goals.swift */; };
+		B10424212C49490800443C09 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424202C49490800443C09 /* Camera.swift */; };
+		B10424232C49491800443C09 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424222C49491800443C09 /* Feed.swift */; };
+		B10424252C49492400443C09 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424242C49492400443C09 /* Profile.swift */; };
+		B10424272C494C5C00443C09 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424262C494C5C00443C09 /* NetworkManager.swift */; };
+		B10424292C494E6400443C09 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10424282C494E6400443C09 /* HomeViewModel.swift */; };
+		B104242B2C494EF800443C09 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B104242A2C494EF800443C09 /* HomeDataModel.swift */; };
+		B17379B32C49537400584E82 /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17379B22C49537400584E82 /* FoodViewModel.swift */; };
+		B17379B52C49538100584E82 /* FoodDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17379B42C49538100584E82 /* FoodDataModel.swift */; };
+		B17379B92C49767E00584E82 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17379B82C49767E00584E82 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		B10424102C49480900443C09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B10424122C49480B00443C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10424152C49480B00443C09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B104241C2C4948BA00443C09 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B104241E2C4948D300443C09 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		B10424202C49490800443C09 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		B10424222C49491800443C09 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B10424242C49492400443C09 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B10424262C494C5C00443C09 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B10424282C494E6400443C09 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B104242A2C494EF800443C09 /* HomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
+		B104242C2C49507200443C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B17379B22C49537400584E82 /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		B17379B42C49538100584E82 /* FoodDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataModel.swift; sourceTree = "<group>"; };
+		B17379B82C49767E00584E82 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,20 @@
 		B104240D2C49480900443C09 /* Xeta-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				B104242C2C49507200443C09 /* Info.plist */,
 				B104240E2C49480900443C09 /* Xeta_AssignmentApp.swift */,
 				B10424102C49480900443C09 /* ContentView.swift */,
+				B104241C2C4948BA00443C09 /* Home.swift */,
+				B17379B82C49767E00584E82 /* Recipe.swift */,
+				B104241E2C4948D300443C09 /* Goals.swift */,
+				B10424202C49490800443C09 /* Camera.swift */,
+				B10424222C49491800443C09 /* Feed.swift */,
+				B10424242C49492400443C09 /* Profile.swift */,
+				B10424262C494C5C00443C09 /* NetworkManager.swift */,
+				B10424282C494E6400443C09 /* HomeViewModel.swift */,
+				B17379B22C49537400584E82 /* FoodViewModel.swift */,
+				B104242A2C494EF800443C09 /* HomeDataModel.swift */,
+				B17379B42C49538100584E82 /* FoodDataModel.swift */,
 				B10424122C49480B00443C09 /* Assets.xcassets */,
 				B10424142C49480B00443C09 /* Preview Content */,
 			);
@@ -137,7 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B104241F2C4948D300443C09 /* Goals.swift in Sources */,
+				B17379B32C49537400584E82 /* FoodViewModel.swift in Sources */,
+				B10424292C494E6400443C09 /* HomeViewModel.swift in Sources */,
+				B10424232C49491800443C09 /* Feed.swift in Sources */,
+				B10424212C49490800443C09 /* Camera.swift in Sources */,
+				B10424252C49492400443C09 /* Profile.swift in Sources */,
+				B10424272C494C5C00443C09 /* NetworkManager.swift in Sources */,
+				B104242B2C494EF800443C09 /* HomeDataModel.swift in Sources */,
 				B10424112C49480900443C09 /* ContentView.swift in Sources */,
+				B17379B52C49538100584E82 /* FoodDataModel.swift in Sources */,
+				B17379B92C49767E00584E82 /* Recipe.swift in Sources */,
+				B104241D2C4948BA00443C09 /* Home.swift in Sources */,
 				B104240F2C49480900443C09 /* Xeta_AssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +321,7 @@
 				DEVELOPMENT_TEAM = U5BJUGD7KV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Xeta-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +351,7 @@
 				DEVELOPMENT_TEAM = U5BJUGD7KV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Xeta-Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
